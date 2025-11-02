@@ -1,11 +1,12 @@
-function App() {
-  
+import { Button } from "./components/ui/button";
 
+function App() {
   return (
-    <>
- Start
-    </>
-  )
+    <div>
+      <Button>Click me</Button>
+      <p className="bg-amber-200">hi</p>
+    </div>
+  );
 }
 
-export default App
+export default App;
