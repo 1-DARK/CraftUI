@@ -12,7 +12,7 @@ function App() {
         </div>
       </div>
 
-      <div className="relative z-50 pt-20">
+      <div className="relative z-50 pt-14">
         <Navbar />
         <Routes>
           <Route path={"/"} element={<HomePage />} />

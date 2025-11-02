@@ -56,13 +56,13 @@ const Navbar = () => {
 
           <Separator orientation="vertical" className="h-6 hidden lg:block" />
 
-          <Link
-            to="/github"
+          <a
+            href="https://github.com/1-DARK/CraftUI"
             className="flex items-center gap-2 text-gray-300 hover:text-emerald-400 transition duration-300 ease-in-out"
           >
             <Github size={18} />
             <span>98.7K</span>
-          </Link>
+          </a>
 
           <Separator orientation="vertical" className="hidden lg:block" />
 
@@ -120,14 +120,14 @@ const Navbar = () => {
               </nav>
 
               <div className="mt-auto px-6 pb-6 border-t border-emerald-800 flex items-center justify-between text-gray-300">
-                <Link
-                  to="/github"
-                  className="flex items-center gap-2 hover:text-emerald-400"
+                <a
+                  href="https://github.com/1-DARK/CraftUI"
+                  className="flex items-center gap-2 hover:text-emerald-400 mt-2"
                   onClick={() => setMenuOpen(false)}
                 >
                   <Github size={20} /> <span>98.7K</span>
-                </Link>
-                <div className="hover:text-emerald-400 cursor-pointer">
+                </a>
+                <div className="hover:text-emerald-400 cursor-pointer mt-2">
                   Source
                 </div>
               </div>
